@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Focus Session</title>
+<style>
+  html,body{height:100%;margin:0}
+  body{font-family:-apple-system,Segoe UI,Roboto,sans-serif;background:#181c22;color:#f2f3f5;
+       display:flex;align-items:center;justify-content:center;text-align:center}
+  .card{max-width:420px;padding:32px}
+  h1{font-size:1.3rem;margin:0 0 8px}
+  p{opacity:.75;margin:4px 0}
+  .remaining{margin-top:16px;font-size:1rem;font-weight:600;opacity:1}
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Focus Session active</h1>
+    <p><strong id="domain">This site</strong> isn't on your allowed list right now.</p>
+    <p class="remaining" id="remaining"></p>
+  </div>
+  <script src="blocked.js"></script>
+</body>
+</html>

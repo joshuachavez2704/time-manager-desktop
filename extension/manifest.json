@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Narrowgate Helper",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "alarms"
+  ],
+  "host_permissions": [
+    "http://localhost/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
